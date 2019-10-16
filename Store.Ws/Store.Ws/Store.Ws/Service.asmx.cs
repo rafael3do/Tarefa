@@ -19,6 +19,8 @@ namespace Store.Ws
         public Service()
         {
             _importService = DependencyResolver.Current.GetService<IImportService>();
+
+
         }       
 
         [WebMethod]
